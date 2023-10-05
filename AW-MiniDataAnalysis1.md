@@ -166,13 +166,14 @@ comments outside of the code chunk?
 # Exploration of the parking_meters dataset
 
 ``` r
-# obtain class, row numbers, and variables of parking_meters
+# obtain class of dataset 
 class(parking_meters)
 ```
 
     ## [1] "tbl_df"     "tbl"        "data.frame"
 
 ``` r
+# obtain row numbers, variable classes, and variables of parking_meters
 glimpse(parking_meters)
 ```
 
@@ -202,19 +203,20 @@ glimpse(parking_meters)
     ## $ meter_id       <chr> "670805", "471405", "C80145", "D03704", "301023", "5913…
 
 The class of the dataset is “tbl_df”, “tbl” and “data.frame”. Variable
-types within the table include character and double classes. There are
-10,032 rows, and there are 22 variables.
+classes within the table include character and double. There are 10,032
+rows, and there are 22 variables.
 
 # Exploration of the vancouver_trees dataset
 
 ``` r
-# obtain class, row numbers, and variables of vancouver_trees
+# obtain class
 class(vancouver_trees)
 ```
 
     ## [1] "tbl_df"     "tbl"        "data.frame"
 
 ``` r
+# obtain row numbers, variable classes, and variables of vancouver_trees
 glimpse(vancouver_trees)
 ```
 
@@ -242,19 +244,20 @@ glimpse(vancouver_trees)
     ## $ latitude           <dbl> 49.21776, 49.21776, 49.23938, 49.23469, 49.23894, 4…
 
 The class of the dataset is “tbl_df”, “tbl” and “data.frame”. Variable
-types within the table include date, character and double classes. There
-are 146,611 rows, and there are 20 variables.
+classes within the table include date, character and double. There are
+146,611 rows, and there are 20 variables.
 
 # Exploration of the apt_buildings dataset
 
 ``` r
-# obtain class, row numbers, and variables of apt_buildings
+# obtain class
 class(apt_buildings)
 ```
 
     ## [1] "tbl_df"     "tbl"        "data.frame"
 
 ``` r
+# obtain row numbers, variable classes, and variables of apt_buildings
 glimpse(apt_buildings)
 ```
 
@@ -299,19 +302,20 @@ glimpse(apt_buildings)
     ## $ no_barrier_free_accessible_units <dbl> 2, 0, 0, 42, 0, NA, 14, 0, 0, 1, 25, …
 
 The class of the dataset is “tbl_df”, “tbl” and “data.frame”. Variable
-types within the table include character and double classes. There are
-3455 rows, and there are 37 variables.
+classes within the table include character and double. There are 3455
+rows, and there are 37 variables.
 
 # Exploration of the building_permits dataset
 
 ``` r
-# obtain class, row numbers, and variables of building_permits
+# obtain class of dataset
 class(building_permits)
 ```
 
     ## [1] "spec_tbl_df" "tbl_df"      "tbl"         "data.frame"
 
 ``` r
+# obtain row numbers, variable classes, and variables of building_permits
 glimpse(building_permits)
 ```
 
@@ -333,8 +337,8 @@ glimpse(building_permits)
     ## $ bi_id                       <dbl> 524, 535, 539, 541, 543, 546, 547, 548, 54…
 
 The class of the dataset is “spec_tbl_df”, “tbl_df”, “tbl” and
-“data.frame”. Variable types within the table include date, character
-and double classes. There are 20,680 rows, and there are 14 variables.
+“data.frame”. Variable classes within the table include date, character
+and double. There are 20,680 rows, and there are 14 variables.
 
 <!----------------------------------------------------------------------------->
 
